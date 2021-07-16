@@ -6,7 +6,7 @@
 
 ### 핵심
 
-(mmw_demo_example_script.py)[https://github.com/engineerjkk/Radar/blob/main/PassingOK_NotRealTime_mmw_demo_example_script.py]안의  
+[mmw_demo_example_script.py](https://github.com/engineerjkk/Radar/blob/main/PassingOK_NotRealTime_mmw_demo_example_script.py)안의  
 detectedNoise_array = parser_one_mmw_demo_output_packet(**allBinData[totalBytesParsed::1]**, readNumBytes-totalBytesParsed)  
 여기의 allBinData 데이터 형식이 어떻게 되는지 분석해야한다.
  
@@ -25,7 +25,7 @@ detectedNoise_array = parser_one_mmw_demo_output_packet(**allBinData[totalBytesP
 3. 실행결과는 다음과 같다.
 ![image](https://user-images.githubusercontent.com/76835313/125942499-b96312ee-91b7-410b-a380-7531254b7050.png)
 5. 이렇게 생성된 값들은 csv 파일 형태로 excel에 저장된다.
--> (생성된 csv파일)[https://github.com/engineerjkk/Radar/blob/main/mmw_demo_output.csv]
+-> [생성된 csv파일](https://github.com/engineerjkk/Radar/blob/main/mmw_demo_output.csv)
 
 **여기까지가 Raw데이터를 Parsing한 것이다. 하지만 문제는 실시간으로 해결 하지못하고 로그데이터를 사용했다.**
 
@@ -36,7 +36,7 @@ detectedNoise_array = parser_one_mmw_demo_output_packet(**allBinData[totalBytesP
 ![image](https://user-images.githubusercontent.com/76835313/125943337-f59f1bef-4541-4d3e-b130-9c65f6328cb7.png)
 ![image](https://user-images.githubusercontent.com/76835313/125943440-dc810f9b-269c-4ccd-afb0-e2857002e374.png)
 3. SRS 종류 후 파이참으로 파이썬 파일 실행
-(readData_IWR6843ISK_DEPRECIATED.py)[https://github.com/engineerjkk/Radar/blob/main/RealTimeOK_readData_IWR6843ISK_DEPRECIATED.py]
+[readData_IWR6843ISK_DEPRECIATED.py](https://github.com/engineerjkk/Radar/blob/main/RealTimeOK_readData_IWR6843ISK_DEPRECIATED.py)
 4. 생성된 시각화. 하지만 그렇게 정확해보이진 않는다.
 ![image](https://user-images.githubusercontent.com/76835313/125943830-98ca5ff5-7f3c-4224-92d5-20628120c922.png)
 
