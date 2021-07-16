@@ -1,7 +1,7 @@
 # Radar 07-16
 
 ## 1.로그파일 파싱.py 
-(Raw데이터 Parsing 파일)[https://github.com/engineerjkk/Radar/blob/main/PassingOK_NotRealTime_mmw_demo_example_script.py]  
+[Raw데이터 Parsing 파일](https://github.com/engineerjkk/Radar/blob/main/PassingOK_NotRealTime_mmw_demo_example_script.py)  
 * SRS로부터 저장된 Raw 데이터를 parsing해서 csv파일로 저장한다.  
 
 ### 핵심
