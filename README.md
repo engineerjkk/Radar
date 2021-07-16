@@ -21,7 +21,7 @@ detectedNoise_array = parser_one_mmw_demo_output_packet(**allBinData[totalBytesP
  ![image](https://user-images.githubusercontent.com/76835313/125942277-6f479924-c51a-4cfc-aa05-af3150b91c6e.png)
 2. 파이참 터미널 환경에서 다음과 같이 작성한다.  
 ![image](https://user-images.githubusercontent.com/76835313/125942395-604fd673-eb94-41f9-ae12-b2239a41b49a.png)  
-(base) I:\junekoo.kang\subin\parser_scripts>python mmw_demo_example_script.py src_test_1.crd  
+(base) I:\junekoo.kang\subin\parser_scripts>python PassingOK_NotRealTime_mmw_demo_example_script.py srs_test_1.crd  
 3. 실행결과는 다음과 같다.  
 ![image](https://user-images.githubusercontent.com/76835313/125942499-b96312ee-91b7-410b-a380-7531254b7050.png)
 5. 이렇게 생성된 값들은 csv 파일 형태로 excel에 저장된다.  
